@@ -1,0 +1,2 @@
+R is a general purpose Statical dynamicaly typed line by line intrepreted lang which was devoloped from 'S' lang (by John Chambers) in bell
+labs by Robert Gentelman and Ross Ihaka in University of Auckland .
