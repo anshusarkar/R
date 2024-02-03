@@ -1,0 +1,26 @@
+{
+    "id": "A86EC0DD",
+    "path": "//wsl.localhost/Ubuntu-22.04/home/zero/R-lang/Data_frames.R",
+    "project_path": "Data_frames.R",
+    "type": "r_source",
+    "hash": "334912602",
+    "contents": "",
+    "dirty": false,
+    "created": 1706966251436.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "31,0",
+        "scrollLine": "12"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1706971295,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1706971295308,
+    "read_only": false,
+    "read_only_alternatives": []
+}
