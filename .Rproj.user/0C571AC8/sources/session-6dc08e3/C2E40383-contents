@@ -1,0 +1,32 @@
+# There is multiple number of file types from which data can be read
+
+# For reading .csv (FULL-form comma-seperated-value)
+
+read_csv()
+
+# For reading .tsv (FULL-form tab-separated value)
+
+read_tsv()
+
+# For reading delim files (Delimited files)
+
+read_delim()
+
+# For reading delim files (delimeted files)
+
+read.delim()
+
+# For reading fwf lines (fixed-width files)
+
+read_fwf()
+
+# For reading tabular files where columns are separated by white-space
+
+read_table()
+
+# For reading log files
+
+read_log()
+
+# There are versious types of file specific read function can be 
+# accesed for that file type
