@@ -18,9 +18,12 @@ view(filtered_tg)
 
 arrange(filtered_tg, len)
 
-# Pipes 
+# above functions also can be nested to do same  
+# menanig it can be done like this fun(fun())
+# Pipes dose the job of fun(fun()) in a new way
 # To aaply pipes using shortcut in linux and PC
 # press ctrl/command + shift + m
+# all above and some extra work was done using pipes
 
 filtered_toothgrowth <- ToothGrowth %>% 
   filter(dose == 0.5) %>% 
