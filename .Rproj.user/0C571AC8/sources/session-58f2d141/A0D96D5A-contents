@@ -1,9 +1,9 @@
 # Operators in R
 # Arithmetic operators + , -  , / , *
 
-quater_1_sales <- 74513.5 # leftwards assignment operator that can be  = too 
+quater_1_sales <- 74513.5 # leftwards assignment operator that can be  = too  also <<- works 
 
-84525.2 -> quater_2_sales # rightwards assignment operator 
+84525.2 -> quater_2_sales # rightwards assignment operator even ->> works
 
 total_sales <- (quater_1_sales + quater_2_sales)
 
