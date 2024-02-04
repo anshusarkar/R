@@ -3,7 +3,7 @@
     "path": "//wsl.localhost/Ubuntu-22.04/home/zero/R-lang/Operators.R",
     "project_path": "Operators.R",
     "type": "r_source",
-    "hash": "3050655666",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1707026729112.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "14,0",
-        "scrollLine": "0"
+        "cursorPosition": "34,0",
+        "scrollLine": "19"
     },
     "folds": "",
     "lastKnownWriteTime": 1707027118,

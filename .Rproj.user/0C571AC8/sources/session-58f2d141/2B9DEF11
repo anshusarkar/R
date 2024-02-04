@@ -3,7 +3,7 @@
     "path": "//wsl.localhost/Ubuntu-22.04/home/zero/R-lang/Data_clening.R",
     "project_path": "Data_clening.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "3139156953",
     "contents": "",
     "dirty": false,
     "created": 1707024044528.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "31,13",
-        "scrollLine": "25"
+        "cursorPosition": "39,0",
+        "scrollLine": "26"
     },
     "folds": "",
-    "lastKnownWriteTime": 1707026503,
+    "lastKnownWriteTime": 1707027943,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1707026503439,
+    "last_content_update": 1707027943790,
     "read_only": false,
     "read_only_alternatives": []
 }
