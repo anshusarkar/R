@@ -1,0 +1,25 @@
+library(tidyverse)
+
+penguins %>% arrange( - bill_length_mm) ->> penguins_df
+
+#View(penguins_df)
+
+# drop_na() is used to not print the rows containing NA values
+
+# Sorting the data
+
+penguins %>%  group_by(island) %>% drop_na() %>% summarize(mean_bill_leangth_mm = mean(bill_length_mm))
+
+penguins %>%  group_by(island) %>% drop_na() %>% summarize(max_bill_leangth_mm = max(bill_length_mm))
+
+penguins %>%  group_by(species) %>% drop_na() %>% summarize(max_bill_length = max(bill_length_mm))
+
+# Filtering the data
+
+penguins %>% filter(species == "Chinstrap") %>% drop_na() %>%  summarise(mean_bill_length = mean(bill_length_mm))
+
+penguins %>% filter(species == "Adelie") %>% drop_na() %>% summarise(mean_bill_length = mean(bill_length_mm))
+
+
+
+
