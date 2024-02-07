@@ -3,9 +3,9 @@
     "path": "//wsl.localhost/Ubuntu-22.04/home/zero/R-lang/Data_Vis_with_ggplot.R",
     "project_path": "Data_Vis_with_ggplot.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1235332259",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1707312307280.0,
     "source_on_save": false,
     "relative_order": 14,
@@ -17,11 +17,11 @@
         "scrollLine": "14"
     },
     "folds": "",
-    "lastKnownWriteTime": 1707318226,
+    "lastKnownWriteTime": 1707319558,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1707319400882,
+    "last_content_update": 1707319558250,
     "read_only": false,
     "read_only_alternatives": []
 }
