@@ -11,7 +11,7 @@ ggplot(data=penguins) + geom_point(mapping = aes ( x = flipper_length_mm, y = bo
 
 # mapping function used to determine aesthetics to geom_point using aes function
 
-# Even C has graphics library 
+# Even C has graphics library that's called <graphics.h>
 
 data("penguins")
 
