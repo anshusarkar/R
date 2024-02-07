@@ -1,4 +1,6 @@
 
+install.packages('tidyverse')
+
 library('ggplot2') # The word ggplot stands for grammer of graphics
 
 library('palmerpenguins')
@@ -11,7 +13,7 @@ ggplot(data=penguins) + geom_point(mapping = aes ( x = flipper_length_mm, y = bo
 
 # mapping function used to determine aesthetics to geom_point using aes function
 
-# Even C has graphics library 
+# Even C has graphics library that's called <graphics.h>
 
 data("penguins")
 
@@ -24,3 +26,10 @@ ggplot(data = penguins) + geom_point(mapping = aes ( x = bill_length_mm, y = bil
 # Applying color , shape , species to entire data dataset insted of specific column
 
 ggplot(data = penguins) + geom_point(mapping = aes ( x = flipper_length_mm, y = body_mass_g) , color = 'green')
+
+# In R geom are the set of functions that helps to represent data in various manner
+# such as geom_point is used to represent data in the form of dots i.e scretter plots
+# and geom_bar to represent data in geom_line 
+
+ggplot(data=penguins) + geom_smooth(mapping = aes ( x = flipper_length_mm, y = body_mass_g))
+

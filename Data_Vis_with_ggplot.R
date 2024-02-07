@@ -1,4 +1,6 @@
 
+install.packages('tidyverse')
+
 library('ggplot2') # The word ggplot stands for grammer of graphics
 
 library('palmerpenguins')
