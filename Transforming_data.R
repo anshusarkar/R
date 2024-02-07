@@ -13,7 +13,9 @@ print(employee)
 
 # Separating name columns into two sub columns " first_name" , "tittle"
 
-separate(employee, name, into("first_name", "tittle"), sep=" ")
+separate(employee, name, into = c("first_name", "tittle"), sep=" ")
+
+ 
 
 
 
