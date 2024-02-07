@@ -21,3 +21,6 @@ ggplot(data = penguins) + geom_point(mapping = aes ( x = bill_length_mm, y = bil
 
 ggplot(data = penguins) + geom_point(mapping = aes ( x = bill_length_mm, y = bill_depth_mm, color = species , shape = species , size = species)) # Also species parameter can be added to determine a specific parameter
 
+# Applying color , shape , species to entire data dataset insted of specific column
+
+ggplot(data = penguins) + geom_point(mapping = aes ( x = flipper_length_mm, y = body_mass_g) , color = 'green')
