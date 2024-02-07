@@ -33,3 +33,8 @@ ggplot(data = penguins) + geom_point(mapping = aes ( x = flipper_length_mm, y = 
 
 ggplot(data=penguins) + geom_smooth(mapping = aes ( x = flipper_length_mm, y = body_mass_g))
 
+# Additionaly using + another layer of geom can be added 
+
+ggplot(data=penguins) + geom_smooth(mapping = aes ( x = flipper_length_mm, y = body_mass_g)) + geom_point(mapping = aes ( x = flipper_length_mm, y = body_mass_g), color = '#0080ff') 
+
+
