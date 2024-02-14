@@ -77,4 +77,6 @@ ggplot(data = penguins)+
 
 # Or ggsave() can be used to do so 
 
+# The png will be saved in the same size of the current size of the plots shown in the plots tab
+
 ggsave("Three Penguin Species.png")
