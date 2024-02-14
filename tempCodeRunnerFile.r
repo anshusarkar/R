@@ -1,13 +1,9 @@
-v <- 1
 
-repeat{
+for(i in 1:10)
+{
+    print(i)
 
-    print(v)
-    v <- v +1
-
-    if(v >= 10){
-
-        break # This statement describes that break the loop if value is greater than 10
-
+    if(i == 4){
+        break
     }
 }
