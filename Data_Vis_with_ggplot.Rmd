@@ -2,7 +2,7 @@
 title: "Creating_a_rmd_for_data_vis_with_ggplot"
 author: "Anshu"
 date: "`r Sys.Date()`"
-output: html_document
+output: pdf_document
 ---
 
 ## Setting up my environment
