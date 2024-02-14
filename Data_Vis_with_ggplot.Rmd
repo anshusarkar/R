@@ -1,0 +1,22 @@
+---
+title: "Creating_a_rmd_for_data_vis_with_ggplot"
+author: "Anshu"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Setting up my environment
+Notes : setting up my R environment by loading the 'tidyverse' and 'palmer penguins' packages
+
+
+
+```{r loading packages}
+# Insert this portion by manullay writing ```{r} ``` or by clicking on +c symbol in Rstudio which stands for code chunck 
+
+library('ggplot2')
+library('palmerpenguins')
+
+ggplot(data=penguins) + geom_point(mapping = aes ( x = flipper_length_mm, y = body_mass_g , color = species , shape = species)) + labs(title = "Palmer Penguins: Body Mass vs. Flipper Length" , subtitle = "Report by Mr. Anshu Sarkar" , caption = "Data collected by Dr. Kristen Gorman" )
+
+```
+
