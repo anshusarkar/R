@@ -1,4 +1,4 @@
 R is a general purpose Stastical dynamicaly typed line by line intrepreted lang which was devoloped from 'S' lang (by John Chambers) in bell
-labs by Robert Gentelman and Ross Ihaka in University of Auckland in 2000 .
+labs by Robert Gentelman and Ross Ihaka in University of Auckland in 2000 . Though the list data type of R actually starts from 1 which is unlike of any other language ...
 
 To run a specific line in R script like python one line can be seclected to run it .
